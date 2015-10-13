@@ -48,7 +48,7 @@ $(document).ready(function() {
 $(document).scroll(function() { 
     var wy=0;
     wy=$(document).scrollTop();
-    if(wy>=1700){
+    if(wy>=1650){
 		jQuery('.skillbar').each(function(){
 			jQuery(this).find('.skillbar-bar').animate({
 				width:jQuery(this).attr('data-percent')
